@@ -3,7 +3,6 @@ const morgan = require("morgan");
 const mongoose = require("mongoose");
 const blogRoutes = require("./routes/blogRoutes");
 
-
 //create an express app instance
 const app = express();
 

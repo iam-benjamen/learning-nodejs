@@ -5,6 +5,7 @@ const _ = require('lodash')
 //     res.writeHead(200, {'Content-Type': 'text/html'});
 //     res.end('Hello World!');
 // }).listen(8080);
+
 const num = _.random(0,20);
 console.log(num);
 
